@@ -1,0 +1,19 @@
+{
+  "title": "安卓应用的安全和破解",
+  "description": "总结安卓应用的安全措施和如何出于研究目的去破解安卓应用，其中介绍好多代的加密技术发展历史，包括常见的代码混淆，自我校验，dex文件变形，dex文件隐藏、so保护等等。总结了安卓的编译和反编译的基本流程和逻辑。整理了加密和解密，反编译，加固，脱壳等相关的工具和技术。典型的反编译流程包括，如何从apk反编译得到java源代码，如何从apk转换出dex文件，如何从dex文件转换出jar文件，如何从jar文件转换出java源代码等等原理和详细步骤。且总结了和安卓反编译、逆向工程、分析等相关的各种工具和软件。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "android_app_security_crack"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/android_app_security_crack/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/android_app_security_crack/pdf/android_app_security_crack.pdf"
+    }
+  }
+}

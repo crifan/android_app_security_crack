@@ -1,0 +1,131 @@
+{
+  "description": "总结安卓应用的安全措施和如何出于研究目的去破解安卓应用，其中介绍好多代的加密技术发展历史，包括常见的代码混淆，自我校验，dex文件变形，dex文件隐藏、so保护等等。总结了安卓的编译和反编译的基本流程和逻辑。整理了加密和解密，反编译，加固，脱壳等相关的工具和技术。典型的反编译流程包括，如何从apk反编译得到java源代码，如何从apk转换出dex文件，如何从dex文件转换出jar文件，如何从jar文件转换出java源代码等等原理和详细步骤。且总结了和安卓反编译、逆向工程、分析等相关的各种工具和软件。", 
+  "links": {
+    "sidebar": {
+      "主页": "http://www.crifan.com"
+    }
+  }, 
+  "author": "Crifan Li <admin@crifan.com>", 
+  "title": "安卓应用的安全和破解", 
+  "gitbook": "3.2.3", 
+  "language": "zh-hans", 
+  "plugins": [
+    "theme-comscore", 
+    "anchors", 
+    "-lunr", 
+    "-search", 
+    "search-plus", 
+    "disqus", 
+    "-highlight", 
+    "prism", 
+    "prism-themes", 
+    "github-buttons", 
+    "splitter", 
+    "-sharing", 
+    "sharing-plus", 
+    "tbfed-pagefooter", 
+    "expandable-chapters-small", 
+    "ga", 
+    "donate", 
+    "sitemap-general", 
+    "copy-code-button", 
+    "callouts", 
+    "toolbar-button"
+  ], 
+  "pluginsConfig": {
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/android_app_security_crack/pdf/android_app_security_crack.pdf", 
+      "icon": "fa-file-pdf-o", 
+      "label": "下载PDF"
+    }, 
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/android_app_security_crack/website/"
+    }, 
+    "sharing": {
+      "qq": true, 
+      "douban": false, 
+      "all": [
+        "douban", 
+        "facebook", 
+        "google", 
+        "instapaper", 
+        "line", 
+        "linkedin", 
+        "messenger", 
+        "pocket", 
+        "qq", 
+        "qzone", 
+        "stumbleupon", 
+        "twitter", 
+        "viber", 
+        "vk", 
+        "weibo", 
+        "whatsapp"
+      ], 
+      "google": false, 
+      "stumbleupon": false, 
+      "hatenaBookmark": false, 
+      "twitter": true, 
+      "vk": false, 
+      "linkedin": false, 
+      "instapaper": false, 
+      "pocket": false, 
+      "weibo": true, 
+      "viber": false, 
+      "facebook": true, 
+      "qzone": false, 
+      "messenger": false, 
+      "line": false, 
+      "whatsapp": false
+    }, 
+    "tbfed-pagefooter": {
+      "modify_format": "YYYY-MM-DD HH:mm:ss", 
+      "modify_label": "该文件修订时间：", 
+      "copyright": "crifan.com，使用<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.zh'>知识署名-相同方式共享4.0协议</a>发布"
+    }, 
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "android_app_security_crack", 
+          "count": true, 
+          "type": "star", 
+          "user": "crifan", 
+          "size": "small"
+        }, 
+        {
+          "count": false, 
+          "width": "120", 
+          "type": "follow", 
+          "user": "crifan", 
+          "size": "small"
+        }
+      ]
+    }, 
+    "disqus": {
+      "shortName": "crifan"
+    }, 
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
+    }, 
+    "ga": {
+      "token": "UA-28297199-1"
+    }, 
+    "theme-default": {
+      "showLevel": true
+    }, 
+    "donate": {
+      "alipay": "https://www.crifan.com/files/res/crifan_com/crifan_alipay_pay.jpg", 
+      "title": "", 
+      "alipayText": "支付宝打赏给Crifan", 
+      "button": "打赏", 
+      "wechatText": "微信打赏给Crifan", 
+      "wechat": "https://www.crifan.com/files/res/crifan_com/crifan_wechat_pay.jpg"
+    }, 
+    "callouts": {
+      "showTypeInHeader": false
+    }
+  }, 
+  "root": "./src"
+}
