@@ -10,7 +10,7 @@
 
 详解：
 
-安卓系统中，用`Dalvik`虚拟机(=`DVM`=`Dalvik Virtual Machine`)去把`java`源码编译为`dex`可执行文件(Dalvik Executable)。
+安卓系统中，用`Dalvik虚拟机`(`DVM`=`Dalvik Virtual Machine`)去把`java`源码编译为`dex`可执行文件(Dalvik Executable)。
 
 而dex文件中保存的就是：编译后了的安卓程序代码文件
 
