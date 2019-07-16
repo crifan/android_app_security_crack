@@ -1,1 +1,1 @@
-include ../GitbookCommon.mk
+include ../../common/gitbook_makefile.mk

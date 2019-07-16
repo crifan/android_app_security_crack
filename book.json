@@ -10,6 +10,7 @@
   "gitbook": "3.2.3", 
   "language": "zh-hans", 
   "plugins": [
+    "google-adsense", 
     "theme-comscore", 
     "anchors", 
     "-lunr", 
@@ -80,8 +81,8 @@
     }, 
     "tbfed-pagefooter": {
       "modify_format": "YYYY-MM-DD HH:mm:ss", 
-      "modify_label": "该文件修订时间：", 
-      "copyright": "crifan.com，使用<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.zh'>知识署名-相同方式共享4.0协议</a>发布"
+      "modify_label": "最后更新：", 
+      "copyright": "crifan.com，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布"
     }, 
     "github-buttons": {
       "buttons": [
@@ -109,12 +110,6 @@
         "prism-themes/themes/prism-atom-dark.css"
       ]
     }, 
-    "ga": {
-      "token": "UA-28297199-1"
-    }, 
-    "theme-default": {
-      "showLevel": true
-    }, 
     "donate": {
       "alipay": "https://www.crifan.com/files/res/crifan_com/crifan_alipay_pay.jpg", 
       "title": "", 
@@ -122,6 +117,22 @@
       "button": "打赏", 
       "wechatText": "微信打赏给Crifan", 
       "wechat": "https://www.crifan.com/files/res/crifan_com/crifan_wechat_pay.jpg"
+    }, 
+    "ga": {
+      "token": "UA-28297199-1"
+    }, 
+    "theme-default": {
+      "showLevel": true
+    }, 
+    "google-adsense": {
+      "ads": [
+        {
+          "slot": "6956288491", 
+          "client": "ca-pub-6626240105039250", 
+          "location": ".page-inner section", 
+          "format": "auto"
+        }
+      ]
     }, 
     "callouts": {
       "showTypeInHeader": false
