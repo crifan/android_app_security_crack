@@ -9,4 +9,4 @@
     * 查看和编辑二进制文件
       * 用来辅助破解apk：编辑dex文件
 * 截图
-  * ![](../../assets/img/010editor_ui_example.gif)
+  * ![](../../../assets/img/010editor_ui_example.gif)

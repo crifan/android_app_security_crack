@@ -3,6 +3,43 @@
 * bitbucket官网
   * [mstrobel / Procyon — Bitbucket](https://bitbucket.org/mstrobel/procyon)
 
+## Luyten vs Procyon
+
+从jar包导出代码：
+
+* Luyten
+  * 带GUI图形界面：可直接查看代码
+  * 也可用来Save all导出全部代码
+    * 但是速度比较慢
+      * 当代码很大时：几十分钟还没导出完毕
+* Procyon
+  * 不带界面，只是一个jar包：
+    * `procyon-decompiler-0.5.34.jar`
+  * 可直接用来从你的jar包导出源码
+    * 当代码很大时：速度很快，1分钟左右即可搞定
+
+## 用Procyon从jar导出java源码
+
+下面介绍用Procyon作为命令行工具去导出一个jar包文件为java源代码的过程：
+
+### 下载Procyon的jar包
+
+比如 [procyon-decompiler-0.5.34.jar](https://bitbucket.org/mstrobel/procyon/downloads/procyon-decompiler-0.5.34.jar)
+
+### 用procyon的jar包从你的jar包转换出java代码
+
+语法：
+
+`java -jar /path/to/procyon-decompiler-0.5.34.jar -jar your_to_decompile.jar -o outputFolderName`
+
+举例：
+
+```bash
+java -jar  /Users/crifan/dev/dev_tool/android/reverse_engineering/Procyon/procyon-decompiler-0.5.34.jar -jar com.huili.readingclub8825612-dex2jar.jar -o com.huili.readingclub8825612
+
+java -jar  /Users/crifan/dev/dev_tool/android/reverse_engineering/Procyon/procyon-decompiler-0.5.36.jar -jar ../../dex_to_jar/com.ishowedu.child.peiyin8392664-dex2jar.jar -o com.ishowedu.child.peiyin8392664_java
+```
+
 ## 基于`Procyon`的`Luyten`中的菜单中参数是来自`procyon-decompiler`命令行的参数
 
 从`procyon-decompiler`的help帮助信息是：
@@ -133,18 +170,3 @@ Usage: <main class> [options] <type names or class/jar files>
 ```
 
 其他以此类推，都是一样的逻辑：把命令行工具的参数，用菜单选项的形式展示和支持出来了。
-
-## Luyten vs Procyon
-
-从jar包导出代码：
-
-* Luyten
-  * 带GUI图形界面：可直接查看代码
-  * 也可用来Save all导出全部代码
-    * 但是速度比较慢
-      * 当代码很大时：几十分钟还没导出完毕
-* Procyon
-  * 不带界面，只是一个jar包：
-    * procyon-decompiler-0.5.34.jar
-  * 可直接用来从你的jar包导出源码
-    * 当代码很大时：速度很快，1分钟左右即可搞定

@@ -90,6 +90,8 @@ total 81656
       * ![](../../../assets/img/browser_select_exported_folder.png)
     2. 切换到夜神用于和电脑共享的文件夹`/mnt/shared/Other`中去`操作` -> `粘贴选择项`
       * ![](../../../assets/img/browser_paste_selected.png)
+      * 然后会开始复制和粘贴：
+      * ![](../../../assets/img/performing_action_paste.png)
     3. 复制粘贴后，无法立即看到已拷贝的文件。回到上一级目录，再重新进来即可看到：
       * ![](../../../assets/img/browser_pasted_files.png)
   * 再去到PC（此处Mac）中找到共享根目录，并拷贝文件

@@ -10,6 +10,10 @@
 
 ![](../assets/img/apk_compile_package_process.png)
 
+和 安卓编译流程：
+
+![](../assets/img/android_compile_flow.png)
+
 具体的解释是：
 
 * 资源处理

@@ -1,28 +1,16 @@
-# 3. jar转换出java
+# 2.1 dex转java
 
-## 准备
+`jadx`可以直接从`dex`导出`java`源码
 
-* 前面一步从`dex`转换得到的`jar`文件
-  * ![com.huili.readingclub8825612-dex2jar.jar](../../../assets/img/to_decode_jar_file.png)
-* 选择合适的反编译器：`jadx`
-  * 用于从`jar`转换出`java`源代码
-  * 网上很多人提到了用的比较广的：`JD-GUI`
-    * 经过实测，基本够用，但不够完美
-  * 后续自己测试了多个其他的反编译器
-  * 最终结论如下：
-    * `Jadx` > `Procyon` > `CFR` > `JD-GUI`
-      * 详见：[常见反编译器对比 · 安卓应用的安全和破解](http://book.crifan.com/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompiler_compare.html)
-  * 所以此处选用：`jadx`
-* 下载`jadx`
-  * 从[这里](https://github.com/skylot/jadx/releases)下载最新版的`jadx`
-    * 比如：
-      * [jadx-0.9.0.zip](https://github.com/skylot/jadx/releases/download/v0.9.0/jadx-0.9.0.zip)
-    * 解压后得到：
-      * `jadx`：命令行工具
-      * `jadx-gui`：带图形界面的
-        * 双击即可运行
+## 下载`jadx`
 
-## 详细步骤
+* 从[这里](https://github.com/skylot/jadx/releases)下载最新版的`jadx`
+  * 比如：
+    * [jadx-0.9.0.zip](https://github.com/skylot/jadx/releases/download/v0.9.0/jadx-0.9.0.zip)
+  * 解压后得到：
+    * `jadx`：命令行工具
+    * `jadx-gui`：带图形界面的
+      * 双击即可运行
 
 此处想要用`jadx`去从`jar`中导出代码，有两种方式：
 
@@ -35,8 +23,20 @@
 
 切换到要导出代码的目录，已有dex文件要导出，则可以直接运行：
 
+语法：
+
 ```bash
-jadx-0.9.0/bin/jadx to_decode_dex_file.dex -d .
+bin/jadx dex_file.dex -d output_folder
+```
+
+举例：
+
+```bash
+jadx-0.9.0/bin/jadx dex_file.dex -d .
+
+../../../../../../reverse_engineering/jadx/jadx-1.0.0/bin/jadx ../../apk_to_dex/com.ishowedu.child.peiyin/com.ishowedu.child.peiyin8392664.dex -d com.ishowedu.child.peiyin8392664_java
+
+../../../../../reverse_engineering/jadx/jadx-1.0.0/bin/jadx ../dex_to_jar/com.ishowedu.child.peiyin9201516-dex2jar.jar -d .
 ```
 
 即可转换出源代码到当前目录下，输出有：
@@ -138,3 +138,41 @@ drwxr-xr-x  13 crifan  staff   416B  4 29 15:30 sources
 其他的一些，比如腾讯乐固加密了的，最终转换出来的jar，去打开后只能看到腾讯乐固的代码：
 
 ![](../../../assets/img/jd_gui_jar_show_tencent_legu.png)
+
+## 注意事项
+
+### `jadx`不能从`jar`导出`java`，否则会报错
+
+举例：
+
+```bash
+../../../../../reverse_engineering/jadx/jadx-1.0.0/bin/jadx ../dex_to_jar/com.ishowedu.child.peiyin9201516-dex2jar.jar -d .
+INFO  - loading ...
+INFO  - converting to dex: com.ishowedu.child.peiyin9201516-dex2jar.jar ...
+ERROR - jadx error: Error load file: ../dex_to_jar/com.ishowedu.child.peiyin9201516-dex2jar.jar
+jadx.core.utils.exceptions.JadxRuntimeException: Error load file: ../dex_to_jar/com.ishowedu.child.peiyin9201516-dex2jar.jar
+    at jadx.api.JadxDecompiler.loadFiles(JadxDecompiler.java:138)
+    at jadx.api.JadxDecompiler.load(JadxDecompiler.java:102)
+    at jadx.cli.JadxCLI.processAndSave(JadxCLI.java:32)
+    at jadx.cli.JadxCLI.main(JadxCLI.java:18)
+Caused by: jadx.core.utils.exceptions.DecodeException: java class to dex conversion error:
+ dx exception: Translation has been interrupted
+    at jadx.core.utils.files.InputFile.loadFromJar(InputFile.java:191)
+    at jadx.core.utils.files.InputFile.searchDexFiles(InputFile.java:82)
+    at jadx.core.utils.files.InputFile.addFilesFrom(InputFile.java:40)
+    at jadx.api.JadxDecompiler.loadFiles(JadxDecompiler.java:136)
+    ... 3 common frames omitted
+Caused by: jadx.core.utils.exceptions.JadxException: dx exception: Translation has been interrupted
+    at jadx.core.utils.files.JavaToDex.convert(JavaToDex.java:63)
+    at jadx.core.utils.files.InputFile.loadFromJar(InputFile.java:182)
+    ... 6 common frames omitted
+Caused by: java.lang.RuntimeException: Translation has been interrupted
+    at com.android.dx.command.dexer.Main.processAllFiles(Main.java:614)
+    at com.android.dx.command.dexer.Main.runMultiDex(Main.java:365)
+    at com.android.dx.command.dexer.Main.runDx(Main.java:286)
+    at jadx.core.utils.files.JavaToDex.convert(JavaToDex.java:49)
+    ... 7 common frames omitted
+Caused by: java.lang.InterruptedException: Too many errors
+    at com.android.dx.command.dexer.Main.processAllFiles(Main.java:606)
+    ... 10 common frames omitted
+```

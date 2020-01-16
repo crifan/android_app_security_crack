@@ -1,4 +1,4 @@
-# 三步: app->dex->jar->java
+# 两步或三步: app->dex->jar->java
 
 ## 前提
 
@@ -12,7 +12,7 @@
 
 ## 思路
 
-1. 从运行中的安卓app导出dex文件
+1. 从`apk`到`dex`：从运行中的安卓app导出dex文件
    * 事先安装安卓的apk到`已root`的安卓`真机`/安卓`模拟器`
    * 在安卓中已经安装了`Xposed`等`Hook框架`中
    * 再去`Xposed`中安装`FDex2`/`DumpDex`等插件
@@ -20,8 +20,13 @@
    * 运行安卓app
      * 自动导出我们要的`dex`文件
    * 从安卓（真机/模拟器）中拷贝出刚才导出的（往往是多个）`dex`文件
-2. 用`dex2jar`等工具从（包含了我们要的、和app业务逻辑相关的那个）`dex`文件中导出`jar`文件
-3. 用反编译器（`jadx`/`CFR`/`Procyon`/`JD-GUI`等）把`jar`转换出`java`源代码
+2. 从`dex`到`java`源码
+   * 一步： 比如用`jadx`支持直接从`dex`转换出`java`源代码
+   * 两步：
+     1. `dex`转`jar`
+        * 用`dex2jar`等工具从（包含了我们要的、和app业务逻辑相关的那个）`dex`文件中导出`jar`文件
+     2. `jar`转`java`源码
+      * 用反编译器（`CFR`/`Procyon`/`JD-GUI`等）把`jar`转换出`java`源代码
 
 ## 详细步骤
 

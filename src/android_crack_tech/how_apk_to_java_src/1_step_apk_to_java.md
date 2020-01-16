@@ -18,7 +18,7 @@
 
 下载`jadx`：
 
-从[Releases · skylot/jadx](Releases · skylot/jadx)下载最新版本，比如[jadx-0.9.0.zip](https://github.com/skylot/jadx/releases/download/v0.9.0/jadx-0.9.0.zip)
+从[skylot/jadx: Dex to Java decompiler](https://github.com/skylot/jadx)的[releases页面](https://github.com/skylot/jadx/releases)下载最新版本，比如[jadx-0.9.0.zip](https://github.com/skylot/jadx/releases/download/v0.9.0/jadx-0.9.0.zip)
 
 解压得到：
 
@@ -29,9 +29,26 @@
 
 详见：[反编译器 jadx](http://book.crifan.com/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
 
-下面以`jadx-gui`(已被我改名为`JadxGUI`)为例去解释。
+## jadx命令行版
 
-## 详细步骤
+直接通过命令行去反编译，效率最高。
+
+语法：
+
+```bash
+jadx -d output_folder your_apk_file.apk
+```
+
+举例：
+
+```bash
+jadx/jadx-0.9.0/bin/jadx -d from_jadx_command xiaohuasheng-v1.5.apk
+jadx/jadx-0.9.0/bin/jadx -d exported_java_src mafengwo_ziyouxing.apk
+```
+
+## jadx gui图形界面版
+
+下面以`jadx-gui`(已被我改名为`JadxGUI`)为例去解释。
 
 对于此处v1.5这种没有加固的apk：
 

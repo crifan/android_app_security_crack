@@ -172,3 +172,8 @@
 * [26款优秀的Android逆向工程工具 - 简书](https://www.jianshu.com/p/ef0b6f75c229)
 * [Application Hardening - Mobile App Hardening | Promon](https://promon.co/security-news/application-hardening/)
 * [Cydia Substrate使用手册 - 简书](https://www.jianshu.com/p/ba795ff3471a)
+* [看雪安全论坛 18年专注——顶级软件逆向论坛](https://bbs.pediy.com)
+* [一张图看懂Android编译流程 - 简书](https://www.jianshu.com/p/04eabba51db0)
+* [原创 如何使用Xposed+JustTrustMe来突破SSL Pinning-『WEB安全』-看雪安全论坛](https://bbs.pediy.com/thread-226435.htm)
+* [当你写爬虫抓不到APP请求包的时候该怎么办？【中级篇】 - 知乎](https://zhuanlan.zhihu.com/p/56397466)
+* [tls - What is certificate pinning? - Information Security Stack Exchange](https://security.stackexchange.com/questions/29988/what-is-certificate-pinning)
