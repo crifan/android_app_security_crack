@@ -129,9 +129,9 @@ drwxr-xr-x  13 crifan  staff   416B  4 29 15:30 sources
 
 ### 其他无效的jar转换出jar的效果
 
-如前一步所说的，从多个`dex`可以转换出多个`jar`
+如前一步所述，从多个`dex`可以转换出多个`jar`
 
-而这些无效的，没有包含app业务逻辑的`jar`，去用一些反编译工具打开，效果是：
+而这些无效的、没有包含app业务逻辑的`jar`，去用一些反编译工具打开后的效果是：
 
 ![](../../../assets/img/jd_gui_open_jar_android.png)
 
