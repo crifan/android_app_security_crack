@@ -5,3 +5,5 @@ debug/
 *.zip
 
 .DS_Store
+
+!src/**/output

@@ -31,10 +31,7 @@
     "google-adsense": {
       "ads": [
         {
-          "client": "ca-pub-6626240105039250",
-          "slot": "6956288491",
-          "format": "auto",
-          "location": ".page-inner section"
+          "client": "ca-pub-6626240105039250"
         }
       ]
     },

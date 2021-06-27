@@ -1,45 +1,48 @@
 # 参考资料
 
-* 【已解决】mac中试用FDex2去hook导出安卓app的dex等文件
-* 【已解决】从不同版本的小花生apk中反编译出包含业务逻辑代码的dex和jar包源码
-* 【已解决】小花生安卓app的v3.4.8版破解后找到源码中是否包含J字段的加密逻辑
-* 【已解决】用apktool，dex2jar，jd-gui去反编译安卓apk查看app源码
-* 【已解决】尝试破解小花生app安卓apk希望看到api返回的json中的J的解密算法得到明文
-* 【已解决】如何反混淆即还原反编译后混淆的安卓代码
+* 【整理】安卓安全技术：VMP android
 * 【已解决】mac中安装最新版本的安卓反编译工具：Apktool
-* 【记录】从反编译安卓apk得到的java源码代码中尝试找返回json中J加密的逻辑和线索
-* 【已解决】小花生app中api请求返回json的C，J，M，ST的含义和如何破解解密
-* 【记录】爬取小花生app中自主阅读馆和亲子阅读馆中的有音频的绘本数据
-* 【未解决】dex2jar反编译dex后jar文件包含java代码：throw new VerifyError bad dex opcode
-* 【已解决】python实现java的MessageGZIP.uncompressToString即gzip的解码
-* 【已解决】Python中实现java中的Base64.decode解码加密字符串
-* 【已解决】从反编译小花生apk得到的包含业务逻辑代码中找到J字段解码的逻辑并用Python实现
-* 【无需解决】安卓apk反编译出的smali反向破解出java原始代码
-* 【已解决】安卓app如何脱壳如何破解加固
-* 【已解决】找小花生app的旧版本apk并尝试能否安装使用
-* 【部分解决】尝试破解安卓apk康美通去得到java源码
-* 【整理】JVM参数-Xms和-Xmx参数的含义
-* 【未解决】用ART，oat，dex2oat相关机制去破解新一代360、腾讯等安卓apk的加固
-* 【整理】把jar包转换为java源代码的java反编译器的整理和对比
-* 【已解决】用基于Procyon的Luyten反编译安卓jar包得到java源码
-* 【未解决】小花生中如何得到getToken的计算逻辑以便得到正确的md5值可以正常请求接口
-* 【整理】java反编译器对比：JD-GUI，CFR，Procyon，Jadx
-* 【已解决】mac版JD-GUI查看并导出jar包的java源代码
-* 【已解决】用java反编译器CFR从jar包导出java源代码
-* 【已解决】用Procyon命令行去从jar包导出java源代码
-* 【已解决】用jadx把安卓dex文件转换提取出jar包和java源代码
-* 【已解决】搞懂安卓app混淆和加固常见做法和相关逻辑
-* 【已解决】mac中用jadx命令行CLI从apk中导出java源码
 * 【已解决】mac中用jadx从apk中导出java源码
-* 【记录】从安卓的apk中解压出各种项目文件
-* 【已解决】用WrBug的DumpDex从app中hook导出dex文件
-* 【已解决】mac中用dex2jar反编译dex文件导出jar包文件
-* 【已解决】夜神安卓模拟器中导出文件到mac电脑
-* 【已解决】Nox夜神安卓模拟器中/mnt/shared对应Mac的共享目录在哪里
-* 【已解决】用jadx命令行从dex文件转换出java源代码
-* [【基本解决】尝试破解安卓apk马蜂窝去得到java源码](http://www.crifan.com/try_crack_android_apk_mafengwo_to_get_java_sourcecode)
+* 【已解决】用Python代码实现少儿趣配音的请求参数sign的计算逻辑
 * 
+* [【已解决】mac中试用FDex2去hook导出安卓app的dex等文件](https://www.crifan.com/try_fdex2_mac_hook_export_dex_other_files_android_app)
+* [【已解决】从不同版本的小花生apk中反编译出包含业务逻辑代码的dex和jar包源码](https://www.crifan.com/dex_jar_package_source_code_containing_business_logic_decompiled_from_different_versions_xiaoseng_apk)
+* [【已解决】小花生安卓app的v3.4.8版破解后找到源码中是否包含J字段的加密逻辑](https://www.crifan.com/peanut_android_app_v3_4_8_version_cracked_find_whether_source_code_contains_j_field_encryption_logic)
+* [【已解决】用apktool，dex2jar，jd-gui去反编译安卓apk查看app源码](https://www.crifan.com/use_apktool_dex2jar_jd_gui_decompile_android_apkto_view_app_source_code)
+* [【已解决】尝试破解小花生app安卓apk希望看到api返回的json中的J的解密算法得到明文](https://www.crifan.com/try_crack_xiaofang_app_android_apk_want_see_api_return_json_j_decryption_algorithm_get_plaintext)
+* [【已解决】如何反混淆即还原反编译后混淆的安卓代码](https://www.crifan.com/how_decompile_deobfuscation_android_java_source)
+* [【记录】从反编译安卓apk得到的java源码代码中尝试找返回json中J加密的逻辑和线索](https://www.crifan.com/try_find_logic_clues_return_j_encryption_json_java_source_code_from_decompilation_android_apk)
+* [【已解决】小花生app中api请求返回json的C，J，M，ST的含义和如何破解解密](https://www.crifan.com/c_j_m_st_json_api_request_app_how_decrypt_meaning)
+* [【记录】爬取小花生app中自主阅读馆和亲子阅读馆中的有音频的绘本数据](https://www.crifan.com/crawl_xiaohuasheng_app_self_reading_parent_child_reading_has_audio_storybook_data)
+* [【未解决】dex2jar反编译dex后jar文件包含java代码：throw new VerifyError bad dex opcode](https://www.crifan.com/dex2jar_decompiled_dex_contains_java_code_throw_new_verifyerror_bad_dex_opcode)
+* [【已解决】python实现java的MessageGZIP.uncompressToString即gzip的解码](https://www.crifan.com/python_implementation_java_messagegzip_uncompresstostring_gzip_decoding)
+* [【已解决】Python中实现java中的Base64.decode解码加密字符串](https://www.crifan.com/python_implementation_java_base64_decode_decoding_encrypted_string)
+* [【已解决】从反编译小花生apk得到的包含业务逻辑代码中找到J字段解码的逻辑并用Python实现](https://www.crifan.com/decoding_logic_j_field_was_found_code_containing_business_logic_obtained_from_decompiled_xiaosang_apk_realized_python)
+* [【无需解决】安卓apk反编译出的smali反向破解出java原始代码](https://www.crifan.com/android_apk_decompiled_out_smali_reverse_decryption_java_original_code)
+* [【已解决】安卓app如何脱壳如何破解加固](https://www.crifan.com/android_app_how_peel_how_crack_reinforcement)
+* [【已解决】找小花生app的旧版本apk并尝试能否安装使用](https://www.crifan.com/find_old_version_xiaoseng_app_apk_try_install_use_it)
+* [【部分解决】尝试破解安卓apk康美通去得到java源码](https://www.crifan.com/try_crack_android_apk_commeton_get_java_source_code)
+* [【整理】JVM参数-Xms和-Xmx参数的含义](https://www.crifan.com/meaning_jvm_parameters_xms_xmx)
+* [【未解决】用ART，oat，dex2oat相关机制去破解新一代360、腾讯等安卓apk的加固](https://www.crifan.com/use_art_oat_dex2oat_related_mechanisms_crack_new_generation_360_tencent_other_android_apk_reinforcement)
+* [【整理】把jar包转换为java源代码的java反编译器的整理和对比](https://www.crifan.com/compilation_comparison_java_decompilers_that_convert_jar_packages_into_java_source_code)
+* [【已解决】用基于Procyon的Luyten反编译安卓jar包得到java源码](https://www.crifan.com/use_procyon_luyten_decompile_android_jar_package_get_java_source_code)
+* [【未解决】小花生中如何得到getToken的计算逻辑以便得到正确的md5值可以正常请求接口](https://www.crifan.com/how_get_calculation_logic_gettoken_so_that_correct_md5_value_can_be_obtained_request_interface_normally)
+* [【整理】java反编译器对比：JD-GUI，CFR，Procyon，Jadx](https://www.crifan.com/java_decompiler_comparison_jd_gui_cfr_procyon_jadx)
+* [【已解决】mac版JD-GUI查看并导出jar包的java源代码](https://www.crifan.com/jd_gui_for_mac_view_export_java_source_code_jar_package)
+* [【已解决】用java反编译器CFR从jar包导出java源代码](https://www.crifan.com/export_java_source_code_from_jar_package_using_java_decompiler_cfr)
+* [【已解决】用Procyon命令行去从jar包导出java源代码](https://www.crifan.com/use_procyon_command_line_export_java_source_code_from_jar_package)
+* [【已解决】用jadx把安卓dex文件转换提取出jar包和java源代码](https://www.crifan.com/use_jadx_extract_android_dex_file_conversion_jar_package_java_source_code)
+* [【已解决】mac中用jadx命令行CLI从apk中导出java源码](https://www.crifan.com/mac_uses_jadx_command_line_cli_export_java_source_code_from_apk)
+* [【记录】从安卓的apk中解压出各种项目文件](https://www.crifan.com/extract_various_project_files_from_apk)
+* [【已解决】用WrBug的DumpDex从app中hook导出dex文件](https://www.crifan.com/use_dumpdex_hook_dex_file_from_app)
+* [【已解决】mac中用dex2jar反编译dex文件导出jar包文件](https://www.crifan.com/mac_uses_dex2jar_decompile_dex_files_export_jar_package_files)
+* [【已解决】夜神安卓模拟器中导出文件到mac电脑](https://www.crifan.com/export_files_from_android_emulator_mac)
+* [【已解决】Nox夜神安卓模拟器中/mnt/shared对应Mac的共享目录在哪里](https://www.crifan.com/_mnt_shared_mnt_shared_mnt_shared)
+* [【已解决】用jadx命令行从dex文件转换出java源代码](https://www.crifan.com/convert_java_source_code_from_dex_file_using_jadx_command_line)
+* [【基本解决】尝试破解安卓apk马蜂窝去得到java源码](http://www.crifan.com/try_crack_android_apk_mafengwo_to_get_java_sourcecode)
+* [【已解决】搞懂安卓app混淆和加固常见做法和相关逻辑](https://www.crifan.com/understand_common_practices_logic_android_app_obfusion_reinforcement)
 * [好用的安卓模拟器：夜神Nox](https://book.crifan.com/books/good_android_emulator_nox/website/)
+* 
 * [Android 反编译利器，jadx 的高级技巧 - 简书](https://www.jianshu.com/p/e5b021df2170)
 * [【手机脱壳】MT2+VXP+FDex2实现免Root脱壳 - Powered by Discuz!](https://bbs.binmt.cc/thread-307-1-1.html)
 * [HangZhouCat/ReaverAPKTools: 逆向APK工具](https://github.com/HangZhouCat/ReaverAPKTools)
@@ -177,3 +180,20 @@
 * [原创 如何使用Xposed+JustTrustMe来突破SSL Pinning-『WEB安全』-看雪安全论坛](https://bbs.pediy.com/thread-226435.htm)
 * [当你写爬虫抓不到APP请求包的时候该怎么办？【中级篇】 - 知乎](https://zhuanlan.zhihu.com/p/56397466)
 * [tls - What is certificate pinning? - Information Security Stack Exchange](https://security.stackexchange.com/questions/29988/what-is-certificate-pinning)
+* [permissiongen权限管理混淆处理_dobiman的博客-CSDN博客](https://blog.csdn.net/dobiman/article/details/78595709)
+* [第三方免费加固横向对比 – Android – 掘金](https://juejin.im/entry/58904a22570c3500621abe9e)
+* [Android DEX-VMP 虚拟保护技术 | GeneBlue's Blog](https://geneblue.github.io/2019/09/13/Android%20DEX-VMP%20虚拟保护技术/)
+* [Android最新的VMP加固技术一般是怎么实现的？ - 知乎](https://www.zhihu.com/question/51585199)
+* [Android Vmp加固实现流程图_zhangmiaoping23的专栏-CSDN博客_android vmp](https://blog.csdn.net/zhangmiaoping23/article/details/101059359)
+* [[原创]某Android DEX vmp加固逆向分析-Android安全-看雪论坛-安全社区|安全招聘|bbs.pediy.com](https://bbs.pediy.com/thread-221270.htm)
+* [Study of android malicious in dynamic unpacking](https://www.slideshare.net/xtutlab/study-of-android-malicious-in-dynamic-unpacking-137998296)
+* [Android SO Virtualization Protection ｜ KIWISEC](https://en.kiwisec.com/product/vm-android.html)
+* [eaglx/VMPROTECT: Obfuscation method using virtual machine.](https://github.com/eaglx/VMPROTECT)
+* [Home · obfuscator-llvm/obfuscator Wiki](https://github.com/obfuscator-llvm/obfuscator/wiki)
+* [Obfuscator-llvm源码分析 - 知乎](https://zhuanlan.zhihu.com/p/39479793)
+* [[原创]ollvm的混淆反混淆和定制修改-Android安全-看雪论坛-安全社区|安全招聘|bbs.pediy.com](https://bbs.pediy.com/thread-217727.htm)
+* [技术前沿|虚拟机保护技术（VMP）的实践与体会-支付产业网](http://paynews.net/article-32805-1.html)
+* [【更新】讨论android加固防内存dump的技术及vmp壳的防护强度 - 看雪安全论坛](http://m.pediy.com/showthread.php?t=206293&highlight=vmp)
+* [[原创]dex vmp虚拟化-『Android安全』-看雪安全论坛](https://bbs.pediy.com/thread-248712.htm)
+* [第五代加固技术 ARM代码虚拟化保护技术](https://github.com/knownsec/KCon/blob/master/2017/%5BKCon%202017%5D0827_3_%E9%99%88%E6%84%89%E9%91%AB_%E7%AC%AC%E4%BA%94%E4%BB%A3%E5%8A%A0%E5%9B%BA%E6%8A%80%E6%9C%AFARM%20VMP%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
+* 
