@@ -14,13 +14,13 @@
   * 可以运行在几乎所有主流的平台
     * GNU/Linux, Windows, *BSD, iOS, OSX, Solaris
 * 组成
-  * 是由一系列的组件构成
-    * `rahash2`：各种密码算法， hash算法
+  * 由一系列的组件构成
+    * `rahash2`：各种密码算法，`hash算法`
     * `rabin2`：查看文件格式
-    * `ragg2`/`ragg2­cc`：用于更方便的生成shellcode
+    * `ragg2`/`ragg2­cc`：用于更方便的生成`shellcode`
     * `rax2`：用于数值转换
     * `rasm2`：反汇编和汇编
-    * `radiff2`：对文件进行 diff
+    * `radiff2`：对文件进行`diff`
   * `radare2`：整合了上面的工具
 * 典型用途
   * 参加CTF

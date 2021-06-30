@@ -1,21 +1,8 @@
-# 常见反编译器对比
-
-下面就去对比常见的安卓的java反编译器的效果和优缺点。
-
-## `JD-GUI` vs (基于`Procyon`的)`Luyten`
-
-| 对比项 | JD-GUI | Luyten |
-| ----- | ------ | ------ |
-| 流行程度 | 比较广->大家用的比较多 | 一般->相对使用的人不是很多 |
-| jar转java的准确率 | 高<br/> ->jd-gui代码转换出错Error <br/>![](../../jd_gui_convert_error_ui.png) | 很高<br/>->Luyten中可正确解析显示源码：<br/>![](../../luyten_convert_error_ui.png) |
-| 显示：整体UI界面和代码高亮 | 比较简单和朴素->不够炫酷和好看 <br/> ![](../../jd_gui_ui_simple.png) | 好看，而且支持多种语法高亮效果 -> 更方便看代码 <br/> ![](../../assets/img/luyten_ui_syntax_highlight_good.png) |
-| 显示：包/类的显示结构 | 以目录的树状结构显示的 -> 层次比较清晰 <br/> ![](../../assets/img/jd_gui_show_by_tree.png) | （默认）平铺直叙，直接显示的 ->层次结构不够清晰 <br/> ![](../../assets/img/luyten_default_show_direct.png) <br/><br/>后记：<br/>后来发现，把默认勾选的选项 `Operation`-> `Package Explorer Style` 取消勾选，也可以按照树状显示类和包名了：<br/>![](../../assets/img/luyten_changed_show_tree.png) |
-
-## `JD-GUI` vs `CFR` vs `Procyon` vs `Jadx`
+# `JD-GUI` vs `CFR` vs `Procyon` vs `Jadx`
 
 对于同一个jar包：`com.huili.readingclub.jar`
 
-![](../../assets/img/same_jar_com_huili_readingclub_jar.png)
+![](../../../../assets/img/same_jar_com_huili_readingclub_jar.png)
 
 用不同工具：
 
@@ -26,7 +13,7 @@
 
 去导出java源代码后，转换导出的效果，尤其是准确性，是否出错，是不一样的。
 
-### 转换的细节是否完美
+## 转换的细节是否完美
 
 jd-gui的细节不够好的地方：
 
@@ -39,7 +26,7 @@ static函数：
   }
 ```
 
-![](../../../assets/img/jd_gui_converted_reentrantlock.png)
+![](../../../../assets/img/jd_gui_converted_reentrantlock.png)
 
 而CFR、Procyon、Jadx转换结果可以更完整：
 
@@ -53,7 +40,7 @@ CFR的：
     }
 ```
 
-![](../../../assets/img/cfr_converted_init_function.png)
+![](../../../../assets/img/cfr_converted_init_function.png)
 
 Procyon
 
@@ -65,7 +52,7 @@ Procyon
     }
 ```
 
-![](../../../assets/img/procyon_converted_init_function.png)
+![](../../../../assets/img/procyon_converted_init_function.png)
 
 Jadx
 
@@ -77,7 +64,7 @@ public class ModelSecurity {
 }
 ```
 
-![](../../../assets/img/jadx_converted_init_function.png)
+![](../../../../assets/img/jadx_converted_init_function.png)
 
 很明显从：
 
@@ -97,9 +84,9 @@ public class ModelSecurity {
 * `Procyon`：细节完美转换
 * `Jadx`：不仅完美且代码变量和结构更合理
 
-### 转换是否出错及代码逻辑清晰度
+## 转换是否出错及代码逻辑清晰度
 
-#### getToken函数转换效果
+### getToken函数转换效果
 
 比如：`com.huili.readingclub.model.ModelSecurity`的`getToken`
 
@@ -128,7 +115,7 @@ JD-GUI某函数转换报错得不到源码
 ......
 ```
 
-![](../../../assets/img/jd_gui_gettoken_code_error.png)
+![](../../../../assets/img/jd_gui_gettoken_code_error.png)
 
 CFR某函数转换报错但有源码
 
@@ -174,7 +161,7 @@ run()
                 Throwable throwable2222;
 ```
 
-![](../../../assets/img/cfr_gettoken_basic_ok_some_error.png)
+![](../../../../assets/img/cfr_gettoken_basic_ok_some_error.png)
 
 Procyon某函数完美转换无错误：
 
@@ -202,7 +189,7 @@ Procyon某函数完美转换无错误：
                                 sb.append("/");
 ```
 
-![](../../../assets/img/procyon_gettoken_nearly_perfect.png)
+![](../../../../assets/img/procyon_gettoken_nearly_perfect.png)
 
 Jadx某函数完美转换外，还保持代码变量和结构更合理 -> 能识别常量定义和引用
 
@@ -225,7 +212,7 @@ Jadx某函数完美转换外，还保持代码变量和结构更合理 -> 能识
                         stringBuilder.append(HttpUtils.PATHS_SEPARATOR);
 ```
 
-![](../../../assets/img/jadx_gettoken_no_error_and_logic_good.png)
+![](../../../../assets/img/jadx_gettoken_no_error_and_logic_good.png)
 
 其中包括`stringBuilder.append`的参数是
 
@@ -235,7 +222,7 @@ Jadx某函数完美转换外，还保持代码变量和结构更合理 -> 能识
 
 `"AyGt7ohMR!gECZG7kiIU0IUJBII7S#N"`
 
-#### `getMD5Str`的`char`的`list`转换效果
+### `getMD5Str`的`char`的`list`转换效果
 
 另外，再去对比：
 
@@ -249,7 +236,7 @@ cArr2[i] = cArr[(b >> 4) & 15];
 
 也容易看懂
 
-![](../../../assets/img/jadx_getmd5str_char_list.png)
+![](../../../../assets/img/jadx_getmd5str_char_list.png)
 
 ```java
     public static final String getMD5Str(String str) {
@@ -273,12 +260,11 @@ cArr2[i] = cArr[(b >> 4) & 15];
     }
 ```
 
-
 而不是像：
 
 Procyon（的Luyten）的代码：
 
-![](../../../assets/img/procyon_getmd5str_char_list.png)
+![](../../../../assets/img/procyon_getmd5str_char_list.png)
 
 ```java
     public static final String getMD5Str(final String s) {
@@ -329,7 +315,7 @@ Procyon（的Luyten）的代码：
 
 更不像是CFR的：
 
-![](../../../assets/img/cfr_getmd5str_char_list.png)
+![](../../../../assets/img/cfr_getmd5str_char_list.png)
 
 ```java
     public static final String getMD5Str(String object) {
@@ -379,7 +365,7 @@ Procyon（的Luyten）的代码：
 
 更更不像是`JD-GUI`导出的源码：
 
-![](../../../assets/img/jd_gui_getmd5str_char_list.png)
+![](../../../../assets/img/jd_gui_getmd5str_char_list.png)
 
 ```java
   public static final String getMD5Str(String paramString)
@@ -459,25 +445,3 @@ localObject[k] = ((char)arrayOfChar[(m >> 4 & 0xF)]);
 * `CFR`：某函数转换报错但有源码
 * `Procyon`：某函数完美转换无错误
 * `Jadx`：某函数完美转换外还能识别常量定义和代码结构更清晰
-
-### `JD-GUI` vs `CFR` vs `Procyon` vs `Jadx` 对比总结
-
-下面从整体总结和对比这几个反编译的反编译的效果：
-
-| **java反编译器** | JD-GUI | CFR | Procyon | Jadx |
-| ---------- | ------- | --- | ------- | ---- |
-| **转换出错程度** | 比较多 | 少许 | 很少 | 极少 |
-| **出错状态和相关信息** | 会显示：`/* Error */ // Byte code` | 输出转换期间出错的地方到文件：`summary.txt` | 会显示：<br/>`This method could not be decompiled.`<br/>`Original Bytecode` | |
-| **转换出的代码的质量** | 不是很好，细节不够好 | 部分细节转换的略有瑕疵，但是还是可以看到基本代码逻辑的 | 完美转换细节<br/>代码中字符数组定义等内容可以正确转换，但是逻辑不清晰<br/>比如只是能转换出常量解析后的字符串值，而无法识别出是常量的引用 | 不仅转换完美无错，而且代码逻辑更准确和完整<br/>代码中的常量的引用都能完美还原出来<br/>代码中字符数组定义等内容可以完美转换 |
-| **转换出的文件是否有标识** | 无 | 有，顶部有标识：<br/>Decompiled with CFR 0.141<br/>并且还标出哪些转换出错：<br/>Could not load the following classes:<br/>android.app.Dialog<br/>android.content.Context<br/>android.content.res.Resources<br/>android.view.View<br/>android.view.View$OnClickListener<br/>android.widget.TextView | 有，顶部有标识：<br/>Decompiled by Procyon v0.5.34 | 无 |
-
-所以最终结论就是：
-
-* 以后**尽量用**`Jadx`
-  * 直接用jadx打开未加固的apk
-    * 即可查看和导出java源代码
-  * 打开（用FDex2从加固了的apk导出的）dex文件
-    * 查看和导出java源代码
-* 其次**考虑用**`Procyon`（或基于Procyon的GUI工具`Luyten`）
-  * 查看代码：用基于Procyon的`Luyten`去查看代码
-  * 导出代码：用Procyon去从jar反编译转换出java源代码

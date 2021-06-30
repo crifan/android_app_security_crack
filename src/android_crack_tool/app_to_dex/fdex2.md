@@ -10,4 +10,4 @@
 
 下载得到`96KB`的apk文件：`FDex2_1.1.apk`
 
-![](../../assets/img/fdex2_apk_96kb.png)
+![fdex2_apk_96kb](../../assets/img/fdex2_apk_96kb.png)

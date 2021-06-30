@@ -105,7 +105,11 @@
     * `com.tencent.StubShell.TxAppEntry`
 * `<meta-data android:name="TxAppEntry"`
 
-也是典型的腾讯乐固的内容。
+以及，多处都可以搜到：`TxAppEntry`
+
+![add_shell_tencent_txappentry](../../assets/img/add_shell_tencent_txappentry.jpg)
+
+都是典型的腾讯乐固的相关内容。
 
 ## 360加固保的加固的目录结构
 

@@ -30,7 +30,9 @@
 
 语法：
 
-`java -jar /path/to/procyon-decompiler-0.5.34.jar -jar your_to_decompile.jar -o outputFolderName`
+```bash
+java -jar /path/to/procyon-decompiler-0.5.34.jar -jar your_to_decompile.jar -o outputFolderName
+```
 
 举例：
 

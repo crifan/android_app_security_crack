@@ -5,7 +5,7 @@
   * [IDA: About](https://www.hex-rays.com/products/ida/index.shtml)
 * 下载
   * [IDA Support: Download Center](https://www.hex-rays.com/products/ida/support/download.shtml)
-  * 注：`IDA Pro`是商业收费软件，请支持和购买正版
+    * 注：`IDA Pro`是商业收费软件，请支持和购买正版
 * 功能
   * 逆向工程的利器
     * 支持对Android的静态分析与动态调试

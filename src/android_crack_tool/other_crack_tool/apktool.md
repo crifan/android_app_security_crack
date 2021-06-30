@@ -21,6 +21,13 @@
   * 官方提示
     * 请不要用apktool用于盗窃破解apk
 
+## 语法
+
+* 反编译apk
+  ```bash
+  apktool d apk_file.apk
+  ```
+
 ## 举例
 
 ### 如何用apktool反编译某apk
@@ -72,12 +79,12 @@ drwxr-xr-x   10 crifan  staff   320B  3 14 13:39 unknown
 
 * 最基本的：`AndroidMenifest.xml`
   * ![](../../assets/img/apktool_decoded_androidmenifest_xml.png)
-* 得不到我们要的`dex`文件
+* 但得不到我们要的`dex`文件
 * 可得到：和app业务逻辑相关代码的smali文件
   * 想要得到最终java源码的话
     * 需要再去找`smali转java`的工具才可以
     * 此处即使不去转换得到java源码
-      * 也可以从smali文件的目录结构和文件名，大概能看出app内部的类/文件名了
+      * 也可以从`smali`文件的目录结构和文件名，大概能看出app内部的类/文件名了
   * 而用apktool转换apk得到smali源码，是有前提的：apk没有加固
     * 加固了的apk反编译后只能看到被加固后的目录结构，看不到app业务逻辑代码和结构
       * 举例：某个被腾讯乐固legu加了密的apk，反编译后看不到原始类名和目录结构，只能看到腾讯乐固的目录结构

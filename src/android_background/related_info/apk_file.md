@@ -1,10 +1,12 @@
 # apk文件
 
 * `apk`=`android Application PacKage`=`APK`
-* apk文件是啥
-  * 是安卓app的安装文件
-  * apk文件其实就是个zip压缩包
-    * 把apk后缀改为zip，即可解压得到一堆安卓相关文件
+  * apk文件是什么：是安卓app的安装文件
+  * 本质：（apk文件其实就是个）zip压缩包
+    * 意味着
+      * 可以用解压缩工具把apk当做zip文件一样去解压
+        * 解压后，得到一堆安卓相关文件
+      * 可以在`apktool`等工具破解和修改了安卓文件后，再重新用压缩文件工具或`apktool`等工具，重新打包为`apk`文件
 
 ## apk内容结构
 

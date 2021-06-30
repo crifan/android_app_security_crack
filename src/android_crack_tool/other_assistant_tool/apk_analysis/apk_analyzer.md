@@ -12,7 +12,7 @@
   * Android Studio
     * [Download Android Studio and SDK tools](https://developer.android.com/studio)
 * 截图
-  * ![](../../assets/img/android_studio_build_analyze_apk.png)
-  * ![](../../assets/img/apk_analyzer_dex_content.jpg)
-  * ![](../../assets/img/apk_analyzer_raw_file.png)
-  * ![](../../assets/img/apk_analyzer_classes_dex.png)
+  * ![](../../../assets/img/android_studio_build_analyze_apk.png)
+  * ![](../../../assets/img/apk_analyzer_dex_content.jpg)
+  * ![](../../../assets/img/apk_analyzer_raw_file.png)
+  * ![](../../../assets/img/apk_analyzer_classes_dex.png)

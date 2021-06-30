@@ -8,7 +8,7 @@
 * 功能
   * Dalvik 字节码（用于安卓APP）分析框架
   * 它是一套基于OCaml的实用工具
-    * 帮助程序员解析、操作Dalvik虚拟机。
+    * 帮助程序员解析、操作Dalvik虚拟机
 * 作者
   * Redexer由来自马里兰大学帕克分校的PLUM组织开发完成
   * 主要作者是：Jinseong Jeon，Kristopher Micinski以及Jeff Foster

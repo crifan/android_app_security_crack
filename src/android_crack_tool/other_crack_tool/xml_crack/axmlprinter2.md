@@ -13,5 +13,9 @@
   * 最近更新都是2008年，11年前的了
     * 看来是很老旧的工具了
 * 用法
-  * `java -jar AXMLPrinter2.jar xxx.xml output.xml`
-  * `java -jar ~/dev/ApkTOOL/AXMLPrinter2.jar AndroidManifest.xml > main.xml`
+  ```bash
+  java -jar AXMLPrinter2.jar xxx.xml output.xml
+  ```
+  ```bash
+  java -jar ~/dev/ApkTOOL/AXMLPrinter2.jar AndroidManifest.xml > main.xml
+  ```

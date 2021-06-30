@@ -1,6 +1,6 @@
 # DexExtractor
 
-* 功能：
+* 功能
   * 用于破解邦邦加密的安卓`dex`文件提取器
 * github主页
   * [lambdalang/DexExtractor](https://github.com/lambdalang/DexExtractor)
@@ -13,7 +13,7 @@
       * [system-arm_md5_6395c2f1451dbbed027d7293ab39a6e7.img.tar.gz](https://pan.baidu.com/s/1jG3WQMU)
   * 启动模拟器加上sdcard
 * 注意
-  * apk没有写权限的反编译了加上write就好了。
+  * apk没有写权限的反编译了加上write就好了
 * 支持
   * 梆梆加固
   * 爱加密（新版本没事）

@@ -30,15 +30,23 @@
 
 ## 用法和举例
 
+用法：
+
 ```bash
-d2j-dex2jar Usage Example
-root@kali:~# d2j-dex2jar /usr/share/metasploit-framework/data/android/apk/classes.dex
-dex2jar /usr/share/metasploit-framework/data/android/apk/classes.dex -> classes-dex2jar.jar
+d2j-dex2jar.sh -f apk_file.apk/dex_file.dex
 ```
 
-最基本的用法：
+即：
 
-* 从`apk`中转换出`jar`：
-  * `sh dex-tools/dex-tools-2.1-SNAPSHOT/d2j-dex2jar.sh -f ~/path/to/apk_to_decompile.apk`
-* 从`dex`中转换出`jar`：
-  * `sh dex-tools/dex-tools-2.1-SNAPSHOT/d2j-dex2jar.sh -f ~/path/to/dex_to_decompile.dex`
+* 从`apk`中转换出`jar`
+  ```bash
+  sh dex-tools/dex-tools-2.1-SNAPSHOT/d2j-dex2jar.sh -f apk_to_decompile.apk
+  ```
+* 从`dex`中转换出`jar`
+  ```bash
+  sh dex-tools/dex-tools-2.1-SNAPSHOT/d2j-dex2jar.sh -f dex_to_decompile.dex
+  ```
+
+更详细的用法，详见前面章节
+
+[2.2.1 dex转换出jar · 安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_2_1_dex_to_jar.html)

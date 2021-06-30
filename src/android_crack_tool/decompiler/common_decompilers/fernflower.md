@@ -11,7 +11,13 @@
 * 说明
   * IntelliJ IDEA 内置
 * 用法
-  * `java -jar fernflower.jar [-<option>=<value>]* [<source>]+ <destination>`
+  ```bash
+  java -jar fernflower.jar [-<option>=<value>]* [<source>]+ <destination>
+  ```
   * 举例
-    * `java -jar fernflower.jar -hes=0 -hdc=0 c:\Temp\binary\ -e=c:\Java\rt.jar c:\Temp\source\`
-    * `java -jar fernflower.jar -dgs=1 c:\Temp\binary\library.jar c:\Temp\binary\Boot.class c:\Temp\source\`
+    ```bash
+    java -jar fernflower.jar -hes=0 -hdc=0 c:\Temp\binary\ -e=c:\Java\rt.jar c:\Temp\source\
+    ```
+    ```bash
+    java -jar fernflower.jar -dgs=1 c:\Temp\binary\library.jar c:\Temp\binary\Boot.class c:\Temp\source\
+    ```

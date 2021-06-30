@@ -10,14 +10,13 @@
 * 机制和原理
   * root设备之后，通过ptrace附加需要脱壳的apk进程，然后在脱壳的apk进程的内存中进行dex文件的特征搜索，当搜索到dex文件时，进行dex文件的内存dump
 * 使用步骤
-  * 将 \armeabi 下的drizzleDumper push进手机
-  * 进入shell，赋给可执行权限
-  * 运行drizzleDumper [包名] [等待时间,默认为0]
+  * 将`\armeabi`下的`drizzleDumper`去`push`进手机
+  * 进入`shell`，赋给可执行权限
+  * 运行`drizzleDumper [包名] [等待时间,默认为0]`
   * 运行需要脱壳程序
 * 使用举例
-
-```bash
-$>adb push F:\drizzleDumper /data/local/tmp
-$>chmod 755 drizzleDumper
-$>./drizzleDumper xyz.sysorem.crackme
-```
+  ```bash
+  $>adb push F:\drizzleDumper /data/local/tmp
+  $>chmod 755 drizzleDumper
+  $>./drizzleDumper xyz.sysorem.crackme
+  ```

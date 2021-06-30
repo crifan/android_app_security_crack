@@ -21,6 +21,6 @@
         * 资源文件
         * 布局文件
 * 截图
-  * ![](../../assets/img/classyshark_ui_demo.png)
-  * ![](../../assets/img/android_classyshark_support_design_ui.png)
-  * ![](../../assets/img/android_classyshark_ui_map.png)
+  * ![](../../../assets/img/classyshark_ui_demo.png)
+  * ![](../../../assets/img/android_classyshark_support_design_ui.png)
+  * ![](../../../assets/img/android_classyshark_ui_map.png)

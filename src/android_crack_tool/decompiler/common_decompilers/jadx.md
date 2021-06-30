@@ -5,15 +5,50 @@
 * 功能
   * 从`dex`或`apk`文件中转换出`java`源代码的反编译器
 * 两种模式/版本
-  * 命令行版本=`command line version`：`jadx`
-  * 图形界面版本=`GUI`=`graphical version`：`jadx-gui`=`JadxGUI`
+  * `命令行`版本=`command line version`：`jadx`
+  * `图形界面`版本=`GUI`=`graphical version`：`jadx-gui`=`JadxGUI`
     * -> 注意：很多人往往把`jadx-gui`简称为`jadx`
-* 截图
-  * ![](../../../assets/img/jadx_gui_screenshot.png)
+    * 截图
+      * ![](../../../assets/img/jadx_gui_screenshot.png)
 
-## `jadx-gui`使用举例
+## 下载jadx
 
-## 用`jadx-gui`导出全部代码
+从[jadx的release页面](https://github.com/skylot/jadx/releases)，可下载到最新版的`jadx`
+
+比如此处是：`jadx-1.2.0.zip`
+
+解压后，可以得到：
+
+* 命令行：`jadx-1.2.0/bin/jadx`
+* GUI图形界面：`jadx-1.2.0/bin/jadx-gui`
+
+![jadx_bin_gui](../../../assets/img/jadx_bin_gui.png)
+
+## jadx使用说明
+
+### 命令行：`jadx`
+
+* 命令行：`jadx`
+  * 语法
+    ```bash
+    bin/jadx dex_file.dex -d output_folder
+    ```
+  * 举例
+    ```bash
+    jadx-0.9.0/bin/jadx dex_file.dex -d .
+    jadx-1.0.0/bin/jadx com.ishowedu.child.peiyin8392664.dex -d com.ishowedu.child.peiyin8392664_java
+    ```
+    * 详见：
+      * [一步: apk->java · 安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/1_step_apk_to_java.html)
+      * [2.1 dex转java · 安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_1_dex_to_java.html)
+
+### GUI：`jadx-gui`
+
+使用方式：双击`bin/jadx-gui`，即可打开界面
+
+详见：[jadx gui图形界面版](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/1_step_apk_to_java.html#jadx-gui%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%89%88)
+
+#### 用`jadx-gui`导出全部代码
 
 `文件 -> 全部保存`
 
@@ -53,33 +88,42 @@
 ## `jadx`的help帮助信息=语法参数
 
 ```bash
-➜  jadx_cmd_exported /xxx/jadx/jadx-0.9.0/bin/jadx --help
+ bin/jadx --help
 
-jadx - dex to java decompiler, version: 0.9.0
+jadx - dex to java decompiler, version: 1.2.0
 
-usage: jadx [options] <input file> (.apk, .dex, .jar or .class)
+usage: jadx [options] <input files> (.apk, .dex, .jar, .class, .smali, .zip, .aar, .arsc)
 options:
   -d, --output-dir                    - output directory
   -ds, --output-dir-src               - output directory for sources
   -dr, --output-dir-res               - output directory for resources
   -r, --no-res                        - do not decode resources
   -s, --no-src                        - do not decompile source code
+  --single-class                      - decompile a single class
+  --output-format                     - can be 'java' or 'json', default: java
   -e, --export-gradle                 - save as android gradle project
-  -j, --threads-count                 - processing threads count (default: 2)
+  -j, --threads-count                 - processing threads count, default: 4
   --show-bad-code                     - show inconsistent code (incorrectly decompiled)
   --no-imports                        - disable use of imports, always write entire package name
+  --no-debug-info                     - disable debug info
+  --no-inline-anonymous               - disable anonymous classes inline
   --no-replace-consts                 - don't replace constant value with matching constant field
   --escape-unicode                    - escape non latin characters in strings (with \u)
   --respect-bytecode-access-modifiers - don't change original access modifiers
   --deobf                             - activate deobfuscation
-  --deobf-min                         - min length of name, renamed if shorter (default: 3)
-  --deobf-max                         - max length of name, renamed if longer (default: 64)
+  --deobf-min                         - min length of name, renamed if shorter, default: 3
+  --deobf-max                         - max length of name, renamed if longer, default: 64
   --deobf-rewrite-cfg                 - force to save deobfuscation map
   --deobf-use-sourcename              - use source file name as class name alias
+  --deobf-parse-kotlin-metadata       - parse kotlin metadata to class and package names
+  --rename-flags                      - what to rename, comma-separated, 'case' for system case sensitivity, 'valid' for java identifiers, 'printable' characters, 'none' or 'all' (default)
+  --fs-case-sensitive                 - treat filesystem as case sensitive, false by default
   --cfg                               - save methods control flow graph to dot file
   --raw-cfg                           - save methods control flow graph (use raw instructions)
   -f, --fallback                      - make simple dump (using goto instead of 'if', 'for', etc)
-  -v, --verbose                       - verbose output
+  -v, --verbose                       - verbose output (set --log-level to DEBUG)
+  -q, --quiet                         - turn off output (set --log-level to QUIET)
+  --log-level                         - set log level, values: QUIET, PROGRESS, ERROR, WARN, INFO, DEBUG, default: PROGRESS
   --version                           - print jadx version
   -h, --help                          - print this help
 Example:
@@ -155,17 +199,23 @@ java.lang.OutOfMemoryError: GC overhead limit exceeded
   * 步骤：
     * 编辑`jadx-0.9.0/bin/jadx`，找到`DEFAULT_JVM_OPTS`的配置，修改其中`-Xmx`的值
     * 比如把此处的
-    * `DEFAULT_JVM_OPTS='"-Xms128M" "-Xmx4g"'`
+      ```bash
+      DEFAULT_JVM_OPTS='"-Xms128M" "-Xmx4g"'
+      ```
     * 改为：
-    * `DEFAULT_JVM_OPTS='"-Xms128M" "-Xmx6g"'`
+      ```bash
+      DEFAULT_JVM_OPTS='"-Xms128M" "-Xmx6g"'
+      ```
     * 即表示，把JVM最大内存，从之前的`4G`，增大到`6G`
     * 这样就运行`jadx`使用更多的内存，从而降低或消除`OOM`的问题了
 * 减少线程数
   * 逻辑：通过`-j N`，N=1/2之类，减少进程数，从而降低内存占用，减少OOM的概率
   * 步骤：
     * 在命令行运行jadx时，传递`-j`参数，指定线程数，比如
-      * `jadx -d output_folder -j 1 your_apk.apk`
-  * 缺点：
+      ```bash
+      jadx -d output_folder -j 1 your_apk.apk
+      ```
+  * 缺点
     * 处理速度会有所降低
       * 因为默认`4`线程处理，反编译等速度会比较快
       * 线程数减少后，反编译等速度可能会有所影响
