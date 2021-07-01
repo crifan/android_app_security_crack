@@ -4,6 +4,9 @@
 * 【已解决】mac中安装最新版本的安卓反编译工具：Apktool
 * 【已解决】mac中用jadx从apk中导出java源码
 * 【已解决】用Python代码实现少儿趣配音的请求参数sign的计算逻辑
+* 【整理】安卓安全 Smali
+* 【整理】安卓安全和破解相关：加花 花指令
+* 【整理】安卓 防护 加壳 服务商 总结
 * 
 * [【已解决】mac中试用FDex2去hook导出安卓app的dex等文件](https://www.crifan.com/try_fdex2_mac_hook_export_dex_other_files_android_app)
 * [【已解决】从不同版本的小花生apk中反编译出包含业务逻辑代码的dex和jar包源码](https://www.crifan.com/dex_jar_package_source_code_containing_business_logic_decompiled_from_different_versions_xiaoseng_apk)
@@ -200,6 +203,7 @@
 * [[原创]Android dex文件通用自动脱壳器-Android安全-看雪论坛-安全社区|安全招聘|bbs.pediy.com](https://bbs.pediy.com/thread-203776.htm)
 * [从Android运行时出发，打造我们的脱壳神器-Harries Blog™](http://www.liuhaihua.cn/archives/153836.html)
 * [[原创]FART：ART环境下基于主动调用的自动化脱壳方案-Android安全-看雪论坛-安全社区|安全招聘|bbs.pediy.com](https://bbs.pediy.com/thread-252630.htm)
+* [[原创]记录一次非常简单的so层小逆向，适合小白入门-『Android安全』-看雪安全论坛](https://bbs.pediy.com/thread-261203.htm)
 * [Smali 语法解析——Hello World - 掘金](https://juejin.im/post/5c093fd751882535422e4f05)
 * [JesusFreke/smali: smali/baksmali](https://github.com/JesusFreke/smali)
 * [Smali语法介绍_Java_singwhatiwanna-CSDN博客](https://blog.csdn.net/singwhatiwanna/article/details/19019547)
@@ -209,4 +213,16 @@
 * [[Android][Security] Android 逆向之 smali | wOw的博客 (wossoneri.github.io)](http://wossoneri.github.io/2019/09/12/%5BAndroid%5D%5BSecurity%5DDecompile-smali/)
 * [Android Runtime (ART) 和 Dalvik  |  Android 开源项目](https://source.android.com/devices/tech/dalvik)
 * [Dalvik 可执行文件格式  |  Android 开源项目  |  Android Open Source Project](https://source.android.com/devices/tech/dalvik/dex-format)
+* [通付盾: 产品体系_应用加固（Andorid/iOS/H5/SDK）](https://www.tongfudun.com/product/nprotect)
+* [移动应用安全加固_移动应用APP加固_应用安全_安全市场_华为云市场-华为云](https://marketplace.huaweicloud.com/product/00301-66172-0--0)
+* [爱加密：深入上海互联网移动应用分析，协助构建移动安全互联-爱加密移动应用安全保护平台|app防反编译|app加壳|app防破解](https://safe.ijiami.cn/newsInfo?id=883&v=0)
+* [安卓dex加花保护_网易易盾](https://dun.163.com/search/5a6J5Y2TZGV45Yqg6Iqx5L-d5oqk)
+* [android dex加花保护_网易易盾](https://dun.163.com/search/YW5kcm9pZCBkZXjliqDoirHkv53miqQ)
+* [Android 代码混淆并加花 - 第四维空间testing - 51Testing软件测试网 51Testing软件测试网-软件测试人的精神家园](http://www.51testing.com/html/55/67755-3720982.html)
+* [android打包上架之预防反编译（花指令）_移动开发_qinzhuoheng的专栏-CSDN博客](https://blog.csdn.net/qinzhuoheng/article/details/47002837)
+* [【技术分享】Android代码混淆技术总结（一） - 安全客，安全资讯平台](https://www.anquanke.com/post/id/85843)
+* [花指令 - CTF Wiki](http://dyf.ink/reverse/windows/anti-debug/junk-code/)
+* [纯手工混淆C/C++代码（上） - 知乎](https://zhuanlan.zhihu.com/p/38683804)
+* [Unicorn实战（一）：去掉libcms.so的花指令 – LeadroyaL's website](https://www.leadroyal.cn/?p=957)
+* [【技术分享】 Android SO 高阶黑盒利用 - 安全客，安全资讯平台](https://www.anquanke.com/post/id/87119)
 * 

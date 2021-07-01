@@ -20,6 +20,7 @@
     * [代码混淆](android_safety_tech/encrypt_overview/code_obfuscation/README.md)
       * [ProGuard](android_safety_tech/encrypt_overview/code_obfuscation/proguard.md)
       * [Obfuscator-LLVM](android_safety_tech/encrypt_overview/code_obfuscation/obfuscator_llvm.md)
+    * [花指令](android_safety_tech/encrypt_overview/junk_code.md)
     * [VMP](android_safety_tech/encrypt_overview/vmp.md)
     * [加固方案](android_safety_tech/encrypt_overview/harden_method/README.md)
       * [常见加固技术对比](android_safety_tech/encrypt_overview/harden_method/common_harden_compare.md)
