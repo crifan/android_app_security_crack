@@ -29,18 +29,30 @@
 ### 命令行：`jadx`
 
 * 命令行：`jadx`
-  * 语法
-    ```bash
-    bin/jadx dex_file.dex -d output_folder
-    ```
-  * 举例
-    ```bash
-    jadx-0.9.0/bin/jadx dex_file.dex -d .
-    jadx-1.0.0/bin/jadx com.ishowedu.child.peiyin8392664.dex -d com.ishowedu.child.peiyin8392664_java
-    ```
-    * 详见：
+  * 处理`apk`文件
+    * 语法
+      ```bash
+      jadx -d output_folder your_apk_file.apk
+      ```
+    * 举例
+      ```bash
+      jadx/jadx-0.9.0/bin/jadx -d from_jadx_command xiaohuasheng-v1.5.apk
+      jadx/jadx-0.9.0/bin/jadx -d exported_java_src mafengwo_ziyouxing.apk
+      ```
+    * 详见
       * [一步: apk->java · 安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/1_step_apk_to_java.html)
-      * [2.1 dex转java · 安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_1_dex_to_java.html)
+  * 处理`dex`
+    * 语法
+        ```bash
+        jadx -d output_folder your_dex_file.dex
+        ```
+    * 举例
+      ```bash
+      jadx-0.9.0/bin/jadx some_dex_file.dex -d .
+      jadx-1.0.0/bin/jadx com.ishowedu.child.peiyin8392664.dex -d com.ishowedu.child.peiyin8392664_java
+      ```
+    * 详见：
+        * [2.1 dex转java · 安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_1_dex_to_java.html)
 
 ### GUI：`jadx-gui`
 

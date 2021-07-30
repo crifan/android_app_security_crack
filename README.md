@@ -1,7 +1,7 @@
 # 安卓应用的安全和破解
 
-* 最新版本：`v2.5`
-* 更新时间：`20210701`
+* 最新版本：`v2.6`
+* 更新时间：`20210728`
 
 ## 简介
 
@@ -21,14 +21,14 @@
 
 ### 在线浏览
 
-* [安卓应用的安全和破解 book.crifan.com](http://book.crifan.com/books/android_app_security_crack/website)
+* [安卓应用的安全和破解 book.crifan.com](https://book.crifan.com/books/android_app_security_crack/website)
 * [安卓应用的安全和破解 crifan.github.io](https://crifan.github.io/android_app_security_crack/website)
 
 ### 离线下载阅读
 
-* [安卓应用的安全和破解 PDF](http://book.crifan.com/books/android_app_security_crack/pdf/android_app_security_crack.pdf)
-* [安卓应用的安全和破解 ePub](http://book.crifan.com/books/android_app_security_crack/epub/android_app_security_crack.epub)
-* [安卓应用的安全和破解 Mobi](http://book.crifan.com/books/android_app_security_crack/mobi/android_app_security_crack.mobi)
+* [安卓应用的安全和破解 PDF](https://book.crifan.com/books/android_app_security_crack/pdf/android_app_security_crack.pdf)
+* [安卓应用的安全和破解 ePub](https://book.crifan.com/books/android_app_security_crack/epub/android_app_security_crack.epub)
+* [安卓应用的安全和破解 Mobi](https://book.crifan.com/books/android_app_security_crack/mobi/android_app_security_crack.mobi)
 
 ## 版权说明
 

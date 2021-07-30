@@ -10,10 +10,10 @@
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/gitbook/android_app_security_crack/website/"
+      "prefix": "https://book.crifan.com/books/android_app_security_crack/website/"
     },
     "toolbar-button": {
-      "url": "http://book.crifan.com/books/android_app_security_crack/pdf/android_app_security_crack.pdf"
+      "url": "https://book.crifan.com/books/android_app_security_crack/pdf/android_app_security_crack.pdf"
     }
   }
 }
