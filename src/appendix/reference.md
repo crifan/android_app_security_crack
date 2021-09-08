@@ -225,4 +225,6 @@
 * [纯手工混淆C/C++代码（上） - 知乎](https://zhuanlan.zhihu.com/p/38683804)
 * [Unicorn实战（一）：去掉libcms.so的花指令 – LeadroyaL's website](https://www.leadroyal.cn/?p=957)
 * [【技术分享】 Android SO 高阶黑盒利用 - 安全客，安全资讯平台](https://www.anquanke.com/post/id/87119)
+* [FDex2 core code MainHook - Programmer Sought](https://www.programmersought.com/article/30852267489/)
+* [Shelling Android APK - Le Tencent solid, a reinforcement key 360 husking(Others-Community) (titanwolf.org)](https://titanwolf.org/Network/Articles/Article?AID=1726d4f3-2ba2-4141-b3ee-5ef15aacb504#gsc.tab=0)
 * 

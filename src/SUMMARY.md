@@ -22,7 +22,7 @@
       * [Obfuscator-LLVM](android_safety_tech/encrypt_overview/code_obfuscation/obfuscator_llvm.md)
     * [花指令](android_safety_tech/encrypt_overview/junk_code.md)
     * [VMP](android_safety_tech/encrypt_overview/vmp.md)
-    * [加固方案](android_safety_tech/encrypt_overview/harden_method/README.md)
+    * [加壳加固](android_safety_tech/encrypt_overview/harden_method/README.md)
       * [常见加固技术对比](android_safety_tech/encrypt_overview/harden_method/common_harden_compare.md)
       * [常见加固服务提供商](android_safety_tech/encrypt_overview/harden_method/common_harden_method.md)
 * [安卓破解技术](android_crack_tech/README.md)

@@ -200,7 +200,7 @@ java.lang.OutOfMemoryError: GC overhead limit exceeded
 * CPU占用率很高
 * 内存消耗也很大
   * 比如此处JadxCLI占用了4G的内存
-    * ![jadx占用4G内存](../../../../assets/img/jadx_memory_4g.jpg)
+    * ![jadx占用4G内存](../../../assets/img/jadx_memory_4g.jpg)
 
 就是典型的：`OOM`=`Out Of Memory`的问题了。
 
