@@ -44,14 +44,14 @@ MT管理器是一款强大的文件管理工具和APK逆向修改神器。
 
 ### 截图举例
 
-![](../../assets/img/mt_file_storage_emulated.png)
+![mt_file_storage_emulated](../../assets/img/mt_file_storage_emulated.png)
 
-![](../../assets/img/mt_manager_storage_ui.png)
+![mt_manager_storage_ui](../../assets/img/mt_manager_storage_ui.png)
 
-![](../../assets/img/mt_file_common_operation.png)
+![mt_file_common_operation](../../assets/img/mt_file_common_operation.png)
 
-![](../../assets/img/mt_hex_editor_ui.png)
+![mt_hex_editor_ui](../../assets/img/mt_hex_editor_ui.png)
 
-![](../../assets/img/mt_viewer_xml_ui.png)
+![mt_viewer_xml_ui](../../assets/img/mt_viewer_xml_ui.png)
 
-![](../../assets/img/mt_dex_file_editor.png)
+![mt_dex_file_editor](../../assets/img/mt_dex_file_editor.png)

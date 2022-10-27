@@ -1,7 +1,7 @@
 # 安卓应用的安全和破解
 
-* 最新版本：`v2.7`
-* 更新时间：`20210819`
+* 最新版本：`v2.8`
+* 更新时间：`20221027`
 
 ## 简介
 
@@ -11,28 +11,30 @@
 
 本书的各种源码、在线浏览地址、多种格式文件下载如下：
 
-### Gitbook源码
+### HonKit源码
 
 * [crifan/android_app_security_crack: 安卓应用的安全和破解](https://github.com/crifan/android_app_security_crack)
 
-#### 如何使用此Gitbook源码去生成发布为电子书
+#### 如何使用此HonKit源码去生成发布为电子书
 
-详见：[crifan/gitbook_template: demo how to use crifan gitbook template and demo](https://github.com/crifan/gitbook_template)
+详见：[crifan/honkit_template: demo how to use crifan honkit template and demo](https://github.com/crifan/honkit_template)
 
 ### 在线浏览
 
-* [安卓应用的安全和破解 book.crifan.com](https://book.crifan.com/books/android_app_security_crack/website)
+* [安卓应用的安全和破解 book.crifan.org](https://book.crifan.org/books/android_app_security_crack/website)
 * [安卓应用的安全和破解 crifan.github.io](https://crifan.github.io/android_app_security_crack/website)
 
 ### 离线下载阅读
 
-* [安卓应用的安全和破解 PDF](https://book.crifan.com/books/android_app_security_crack/pdf/android_app_security_crack.pdf)
-* [安卓应用的安全和破解 ePub](https://book.crifan.com/books/android_app_security_crack/epub/android_app_security_crack.epub)
-* [安卓应用的安全和破解 Mobi](https://book.crifan.com/books/android_app_security_crack/mobi/android_app_security_crack.mobi)
+* [安卓应用的安全和破解 PDF](https://book.crifan.org/books/android_app_security_crack/pdf/android_app_security_crack.pdf)
+* [安卓应用的安全和破解 ePub](https://book.crifan.org/books/android_app_security_crack/epub/android_app_security_crack.epub)
+* [安卓应用的安全和破解 Mobi](https://book.crifan.org/books/android_app_security_crack/mobi/android_app_security_crack.mobi)
 
-## 版权说明
+## 版权和用途说明
 
-此电子书教程的全部内容，如无特别说明，均为本人原创和整理。其中部分内容参考自网络，均已备注了出处。如有发现侵犯您版权，请通过邮箱联系我 `admin 艾特 crifan.com`，我会尽快删除。谢谢合作。
+此电子书教程的全部内容，如无特别说明，均为本人原创。其中部分内容参考自网络，均已备注了出处。如有版权，请通过邮箱联系我 `admin 艾特 crifan.com`，我会尽快删除。谢谢合作。
+
+各种技术类教程，仅作为学习和研究使用。请勿用于任何非法用途。如有非法用途，均与本人无关。
 
 ## 鸣谢
 

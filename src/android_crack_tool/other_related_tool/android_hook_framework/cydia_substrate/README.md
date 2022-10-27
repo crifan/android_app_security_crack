@@ -1,7 +1,7 @@
 # Cydia Substrate
 
 * 主页
-  * [* Cydia Substrate](http://www.cydiasubstrate.com)
+  * [Cydia Substrate](http://www.cydiasubstrate.com)
 * 下载
   * [com.saurik.substrate.apk](http://www.cydiasubstrate.com/download/com.saurik.substrate.apk)
 * 功能

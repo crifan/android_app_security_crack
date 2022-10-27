@@ -1,1 +1,1 @@
-include ../../common/gitbook_makefile.mk
+include ../../common/honkit_makefile.mk
