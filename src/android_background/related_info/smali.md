@@ -38,7 +38,6 @@
   * TypesMethodsAndFields · JesusFreke/smali Wiki
     * https://github.com/JesusFreke/smali/wiki/TypesMethodsAndFields
 
-
 ### 数据类型 Types
 
 | Smali | Java | 备注 |
