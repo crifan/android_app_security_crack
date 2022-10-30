@@ -109,7 +109,7 @@ drwxr-xr-x  13 crifan  staff   416B  4 29 15:30 sources
 
 具体过程详见：
 
-[反编译器 Jadx](http://book.crifan.com/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
+[反编译器 Jadx](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
 
 ## 备注和说明
 

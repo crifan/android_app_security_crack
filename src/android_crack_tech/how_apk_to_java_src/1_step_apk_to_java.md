@@ -27,7 +27,7 @@
 * `bin/jadx-gui`：带图形界面的版本
   * `bin/jadx-gui.bat`：Windows版
 
-详见：[反编译器 jadx](http://book.crifan.com/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
+详见：[反编译器 jadx](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
 
 ## jadx命令行版
 

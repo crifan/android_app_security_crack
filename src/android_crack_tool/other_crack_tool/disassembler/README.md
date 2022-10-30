@@ -22,4 +22,4 @@
     * Ubuntu
       * `sudo apt-get install libcapstone3`
   * 详见
-    * [安卓安全](https://book.crifan.com/books/explore_underlying_mechanism_binary_security/website/)中的[Capstone](https://book.crifan.com/books/explore_underlying_mechanism_binary_security/website/multi_plat/disassembler/capstone.html)
+    * [二进制安全](https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/)中的[Capstone](https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/multi_plat/disassembler/capstone.html)

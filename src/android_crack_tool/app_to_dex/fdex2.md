@@ -17,7 +17,7 @@
 
 ![fdex2_apk_96kb](../../assets/img/fdex2_apk_96kb.png)
 
-先安装到安卓设备中，比如此处的[Nox夜神模拟器](https://book.crifan.com/books/good_android_emulator_nox/website/)：
+先安装到安卓设备中，比如此处的[Nox夜神模拟器](https://book.crifan.org/books/good_android_emulator_nox/website/)：
 
 ![nox_installed_fdex2](../../assets/img/nox_installed_fdex2.png)
 

@@ -21,10 +21,10 @@
     * 不是依赖其他的（很多安卓反汇编的、java的）库
   * 分析速度快、体积小、内存占用少
 * 截图
-  * ![](../../../assets/img/gda_ui_1.png)
-  * ![](../../../assets/img/gda_ui_2.png)
-  * ![](../../../assets/img/gda_ui_3.jpg)
-  * ![](../../../assets/img/gda_ui_4.gif)
-  * ![](../../../assets/img/gda_ui_5.gif)
+  * ![gda_ui_1](../../../assets/img/gda_ui_1.png)
+  * ![gda_ui_2](../../../assets/img/gda_ui_2.png)
+  * ![gda_ui_3](../../../assets/img/gda_ui_3.jpg)
+  * ![gda_ui_4](../../../assets/img/gda_ui_4.gif)
+  * ![gda_ui_5](../../../assets/img/gda_ui_5.gif)
 * GDA vs JEB
-  * ![](../../../assets/img/gda_vs_jeb.png)
+  * ![gda_vs_jeb](../../../assets/img/gda_vs_jeb.png)

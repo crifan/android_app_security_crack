@@ -6,7 +6,7 @@
 
 具体用法详见前面章节：
 
-[1. app导出dex · 安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/1_app_dump_dex.html)
+[1. app导出dex](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/1_app_dump_dex.html)
 
 ## 从app导出dex的文件的命名
 

@@ -7,4 +7,4 @@
 
 更详细的解释详见专门教程：
 
-[好用的安卓模拟器：夜神Nox](https://book.crifan.com/books/good_android_emulator_nox/website/)
+[好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)

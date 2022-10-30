@@ -47,4 +47,4 @@
 
 详见
 
-[Jadx 如何反混淆deobfuscation](http://book.crifan.com/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
+[Jadx 如何反混淆deobfuscation](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
