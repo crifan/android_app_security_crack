@@ -49,4 +49,4 @@ d2j-dex2jar.sh -f apk_file.apk/dex_file.dex
 
 更详细的用法，详见前面章节
 
-[2.2.1 dex转换出jar](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_2_1_dex_to_jar.html)
+[2.2.1 dex转换出jar](../../android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_2_1_dex_to_jar.md)

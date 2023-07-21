@@ -45,6 +45,4 @@
 
 ![](../assets/img/jadx_deobfuscation_renamed_from.png)
 
-详见
-
-[Jadx 如何反混淆deobfuscation](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
+详见：[Jadx 如何反混淆deobfuscation](../android_crack_tool/decompiler/common_decompilers/jadx.md)

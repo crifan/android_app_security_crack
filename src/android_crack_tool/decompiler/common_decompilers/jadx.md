@@ -40,7 +40,7 @@
       jadx/jadx-0.9.0/bin/jadx -d exported_java_src mafengwo_ziyouxing.apk
       ```
     * 详见
-      * [一步: apk->java](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/1_step_apk_to_java.html)
+      * [一步: apk->java](../../../android_crack_tech/how_apk_to_java_src/1_step_apk_to_java.md)
   * 处理`dex`
     * 语法
         ```bash
@@ -52,13 +52,15 @@
       jadx-1.0.0/bin/jadx com.ishowedu.child.peiyin8392664.dex -d com.ishowedu.child.peiyin8392664_java
       ```
     * 详见：
-        * [2.1 dex转java](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_1_dex_to_java.html)
+      * [2.1 dex转java](../../../android_crack_tech/how_apk_to_java_src/2_or_3_steps/2_1_dex_to_java.md)
 
 ### GUI：`jadx-gui`
 
 使用方式：双击`bin/jadx-gui`，即可打开界面
 
-详见：[jadx gui图形界面版](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tech/how_apk_to_java_src/1_step_apk_to_java.html#jadx-gui%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%89%88)
+详见：
+
+[一步: apk->java](../../../android_crack_tech/how_apk_to_java_src/1_step_apk_to_java.md) 中的 `jadx gui图形界面版`
 
 #### 用`jadx-gui`导出全部代码
 

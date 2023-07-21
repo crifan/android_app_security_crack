@@ -107,9 +107,7 @@ drwxr-xr-x  13 crifan  staff   416B  4 29 15:30 sources
 
 ![](../../../assets/img/exported_sources_found_java_src.png)
 
-具体过程详见：
-
-[反编译器 Jadx](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
+具体过程详见： [反编译器jadx](../../../android_crack_tool/decompiler/common_decompilers/jadx.md)
 
 ## 备注和说明
 

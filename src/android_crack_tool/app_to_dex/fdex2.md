@@ -1,7 +1,7 @@
 # FDex2
 
 * `FDex2`
-  * 是什么：[XPosed](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)的一个插件
+  * 是什么：[XPosed](https://book.crifan.org/books/crack_assistant_xposed_framework/website/)的一个插件
   * 功能：用来从`运行中的安卓app`中导出`dex`文件
   * 下载
     * 百度网盘

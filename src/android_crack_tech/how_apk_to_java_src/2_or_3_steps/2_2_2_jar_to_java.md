@@ -11,8 +11,11 @@
   * 后续自己测试了多个其他的反编译器
   * 最终结论如下：
     * `Jadx` > `Procyon` > `CFR` > `JD-GUI`
-      * 详见：[常见反编译器对比](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompiler_compare.html)
-      * 注：此处`jadx`其实是，直接从`dex`转`java`，而其他几个反编译器是从`jar`转`java`，略有不同。请使用时稍微注意区别。
+      * 注：
+        * 此处`jadx`其实是：直接从`dex`转`java`
+        * 而其他几个反编译器是：（先要从`apk`得到`jar`，然后才能）从`jar`转`java`
+        * 所以略有不同。请使用时稍微注意区别。
+      * 详见：[常见反编译器对比](../../../android_crack_tool/decompiler/decompiler_cmp/README.md)
   * 所以此处选用：`procyon`
     * 关于反编译效果更好的`jadx`，详见前面章节。
 

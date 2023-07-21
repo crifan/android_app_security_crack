@@ -44,7 +44,6 @@
 * [【已解决】用jadx命令行从dex文件转换出java源代码](https://www.crifan.org/convert_java_source_code_from_dex_file_using_jadx_command_line)
 * [【基本解决】尝试破解安卓apk马蜂窝去得到java源码](http://www.crifan.org/try_crack_android_apk_mafengwo_to_get_java_sourcecode)
 * [【已解决】搞懂安卓app混淆和加固常见做法和相关逻辑](https://www.crifan.org/understand_common_practices_logic_android_app_obfusion_reinforcement)
-* [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
 * 
 * [Android 反编译利器，jadx 的高级技巧 - 简书](https://www.jianshu.com/p/e5b021df2170)
 * [【手机脱壳】MT2+VXP+FDex2实现免Root脱壳 - Powered by Discuz!](https://bbs.binmt.cc/thread-307-1-1.html)
@@ -107,7 +106,6 @@
 * [Konloch/bytecode-viewer: A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)](https://github.com/Konloch/bytecode-viewer)
 * [Bytecode Viewer-一款基于Java 8的Android APK逆向工具包 - 安全客，安全资讯平台](https://www.anquanke.com/post/id/84263)
 * [skylot/jadx: Dex to Java decompiler](https://github.com/skylot/jadx)
-* [Jadx 如何反混淆deobfuscation](https://book.crifan.org/books/android_app_security_crack/website/android_crack_tool/decompiler/common_decompilers/jadx.html)
 * [010 Editor - Professional Text/Hex Editor with Binary Templates](https://www.sweetscape.com/010editor/)
 * [SweetScape Software Inc - Download 010 Editor](https://www.sweetscape.com/download/010editor/)
 * [IDA: About](https://www.hex-rays.com/products/ida/index.shtml)
