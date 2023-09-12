@@ -4,15 +4,15 @@
 
 `apk`打包流程图=`apk`产生过程：
 
-![](../assets/img/apk_build_process.png)
+![apk_build_process](../assets/img/apk_build_process.png)
 
 和
 
-![](../assets/img/apk_compile_package_process.png)
+![apk_compile_package_process](../assets/img/apk_compile_package_process.png)
 
 和 安卓编译流程：
 
-![](../assets/img/android_compile_flow.png)
+![android_compile_flow](../assets/img/android_compile_flow.png)
 
 具体的解释是：
 

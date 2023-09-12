@@ -10,12 +10,12 @@
   * 具有相同ID的两个应用程序可以彼此交换数据。
 * 系统运行层
   * 主要包括一些`开源类库`以及`Android运行时环境`
-    * 其中`Dalvik`虚拟机中运行的应用程序格式为`dex`的`二进制文件`
+    * 其中虚拟机（`Dalvik`、`ART`）中运行的应用程序格式为`dex`的`二进制文件`
 * 应用框架层
   * 具有Java接口的应用程序框架
     * 主要组成
-      * Android NDK
-      * Android SDK
+      * `Java`层的`Android SDK`
+      * `Native`层的`Android NDK`
 * 应用层
   * 预安装一些核心应用程序
 

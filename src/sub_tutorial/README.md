@@ -1,4 +1,4 @@
-# 其他子教程
+# 系列子教程
 
 此处列出已完成的**Android安全和逆向**相关系列的`子教程`：
 
@@ -9,8 +9,9 @@
     * 逆向
       * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
         * [Android逆向：开启root](https://book.crifan.org/books/android_re_enable_root/website/)
-        * [Android逆向：重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
+        * [Android逆向：静态分析](https://book.crifan.org/books/android_re_static_analysis/website/)
         * [Android逆向：动态调试](https://book.crifan.org/books/android_re_dynamic_debug/website/)
+        * [Android逆向：重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
       * 相关
         * 安卓模拟器
           * [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
