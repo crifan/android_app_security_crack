@@ -15,7 +15,7 @@
     * 防调试和运行
       * 反调试
       * Root检测
-        * 检测`Exposed`、`Frida`等
+        * 检测`Xposed`、`Frida`等
     * 防抓包=反抓包
       * `ssl pinning`=`证书绑定`
 
@@ -28,12 +28,12 @@
 * 其次：加强安全防破解技术
   * 代码
     * 代码混淆
-      * 首选：`Obfuscator-LLVM`
+      * 首选：`Obfuscator-LLVM`=`ollvm`
       * 其次：`ProGuard`
   * 其他防护
     * `VMP`
-      * 给dex（中的核心逻辑）做VMP
-      * 给SO库（中的核心逻辑）做VMP
+      * 给`dex`（中的核心逻辑）做VMP
+      * 给`so`库（中的核心逻辑）做VMP
     * 加壳
       * 用第三方加壳服务或自己实现
         * 第三方加壳服务商

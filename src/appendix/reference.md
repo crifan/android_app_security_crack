@@ -2,7 +2,6 @@
 
 * 【整理】安卓安全技术：VMP android
 * 【已解决】mac中安装最新版本的安卓反编译工具：Apktool
-* 【已解决】mac中用jadx从apk中导出java源码
 * 【已解决】用Python代码实现少儿趣配音的请求参数sign的计算逻辑
 * 【整理】安卓安全 Smali
 * 【整理】安卓安全和破解相关：加花 花指令
@@ -29,18 +28,14 @@
 * [【整理】把jar包转换为java源代码的java反编译器的整理和对比](https://www.crifan.org/compilation_comparison_java_decompilers_that_convert_jar_packages_into_java_source_code)
 * [【已解决】用基于Procyon的Luyten反编译安卓jar包得到java源码](https://www.crifan.org/use_procyon_luyten_decompile_android_jar_package_get_java_source_code)
 * [【未解决】小花生中如何得到getToken的计算逻辑以便得到正确的md5值可以正常请求接口](https://www.crifan.org/how_get_calculation_logic_gettoken_so_that_correct_md5_value_can_be_obtained_request_interface_normally)
-* [【整理】java反编译器对比：JD-GUI，CFR，Procyon，Jadx](https://www.crifan.org/java_decompiler_comparison_jd_gui_cfr_procyon_jadx)
 * [【已解决】mac版JD-GUI查看并导出jar包的java源代码](https://www.crifan.org/jd_gui_for_mac_view_export_java_source_code_jar_package)
 * [【已解决】用java反编译器CFR从jar包导出java源代码](https://www.crifan.org/export_java_source_code_from_jar_package_using_java_decompiler_cfr)
 * [【已解决】用Procyon命令行去从jar包导出java源代码](https://www.crifan.org/use_procyon_command_line_export_java_source_code_from_jar_package)
-* [【已解决】用jadx把安卓dex文件转换提取出jar包和java源代码](https://www.crifan.org/use_jadx_extract_android_dex_file_conversion_jar_package_java_source_code)
-* [【已解决】mac中用jadx命令行CLI从apk中导出java源码](https://www.crifan.org/mac_uses_jadx_command_line_cli_export_java_source_code_from_apk)
 * [【记录】从安卓的apk中解压出各种项目文件](https://www.crifan.org/extract_various_project_files_from_apk)
 * [【已解决】用WrBug的DumpDex从app中hook导出dex文件](https://www.crifan.org/use_dumpdex_hook_dex_file_from_app)
 * [【已解决】mac中用dex2jar反编译dex文件导出jar包文件](https://www.crifan.org/mac_uses_dex2jar_decompile_dex_files_export_jar_package_files)
 * [【已解决】夜神安卓模拟器中导出文件到mac电脑](https://www.crifan.org/export_files_from_android_emulator_mac)
 * [【已解决】Nox夜神安卓模拟器中/mnt/shared对应Mac的共享目录在哪里](https://www.crifan.org/_mnt_shared_mnt_shared_mnt_shared)
-* [【已解决】用jadx命令行从dex文件转换出java源代码](https://www.crifan.org/convert_java_source_code_from_dex_file_using_jadx_command_line)
 * [【基本解决】尝试破解安卓apk马蜂窝去得到java源码](http://www.crifan.org/try_crack_android_apk_mafengwo_to_get_java_sourcecode)
 * [【已解决】搞懂安卓app混淆和加固常见做法和相关逻辑](https://www.crifan.org/understand_common_practices_logic_android_app_obfusion_reinforcement)
 * 
@@ -54,7 +49,6 @@
 * [What are .dex files in Android? - Stack Overflow](https://stackoverflow.com/questions/7750448/what-are-dex-files-in-android)
 * [Dalvik 可执行文件格式  |  Android Open Source Project](https://source.android.com/devices/tech/dalvik/dex-format.html)
 * [ART 和 Dalvik  |  Android Open Source Project](https://source.android.com/devices/tech/dalvik)
-* [How to decompile an APK or DEX file using jadx in Windows | Our Code World](https://ourcodeworld.com/articles/read/387/how-to-decompile-an-apk-or-dex-file-using-jadx-in-windows)
 * [压缩代码和资源  |  Android Developers](https://developer.android.com/studio/build/shrink-code)
 * [Android应用加固产品使用对比 - 『移动安全区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|破解软件|www.52pojie.cn](https://www.52pojie.cn/thread-832804-1-1.html)
 * [S3cuRiTy-Er1C/JebScripts: Jeb public scripts](https://github.com/S3cuRiTy-Er1C/JebScripts)

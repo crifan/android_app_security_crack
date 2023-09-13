@@ -12,10 +12,10 @@
           * `aapt`
         * 解包工具：输出`dex`、`so`、`smali`
           * `apktool`
-          * `jadx`
         * 反编译工具
           * 直接apk转java
             * `jadx`
+            * `JEB`
             * `GDA`
       * 针对`dex`
         * 各种导出dex的工具=砸壳工具=脱壳工具
@@ -32,7 +32,6 @@
             * `GDA`
       * 针对`jar`
         * jar转java=各种反编译工具
-          * `jadx`
           * `Procyon`
           * `CFR`
           * `JD-GUI`
@@ -90,8 +89,8 @@
 * 砸壳思路=脱壳方案
   * 目前多数都是基于`Hook`框架，去从安卓app中导出dex文件
     * 典型的hook框架
-      * `XPosed`：从根上Hook了Android Java虚拟机
-      * `Cydia`：支持jni和java层的HOOK功能
+      * `XPosed`：从根上hook了Android Java虚拟机
+      * `Cydia`：支持`JNI`和`java`层的hook功能
     * 再去从dex中转换出java代码
 
 ## 详解

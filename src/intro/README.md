@@ -20,7 +20,7 @@
       * 防调试和运行
         * 反调试
         * Root检测
-          * 检测`Exposed`、`Frida`等
+          * 检测`Xposed`、`Frida`等
       * 防抓包=反抓包
         * `ssl pinning`=`证书绑定`
   * **逆向**=**破解**
@@ -31,10 +31,10 @@
             * `aapt`
           * 解包工具：输出`dex`、`so`、`smali`
             * `apktool`
-            * `jadx`
           * 反编译工具
             * 直接apk转java
               * `jadx`
+              * `JEB`
               * `GDA`
         * 针对`dex`
           * 各种导出dex的工具=砸壳工具=脱壳工具
@@ -51,7 +51,6 @@
               * `GDA`
         * 针对`jar`
           * jar转java=各种反编译工具
-            * `jadx`
             * `Procyon`
             * `CFR`
             * `JD-GUI`
