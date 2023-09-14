@@ -64,7 +64,7 @@
 * [乐固加固脱壳实战 - faTe's Home](http://www.holdheart.com/archives/33.html)
 * [Android APK脱壳--腾讯乐固、360加固一键脱壳 - 知乎](https://zhuanlan.zhihu.com/p/45591754)
 * [Android APK脱壳--腾讯乐固、360加固一键脱壳 | 辉天神龙](https://xucanhui.com/2018/09/27/android-apk-shelling/)
-* [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.org/books/powerful_crack_tool_xposed_framework/website/)
+* [安卓逆向调试：XPosed框架](https://book.crifan.org/books/android_re_xposed_framework/website/)
 * [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
 * [Android逆向入门流程 - 简书](https://www.jianshu.com/p/71fb7ccc05ff)
 * [swdunlop/AndBug: Android Debugging Library](https://github.com/swdunlop/AndBug)
