@@ -17,7 +17,7 @@
         * 安卓模拟器
           * [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
         * 框架
-          * [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.org/books/crack_assistant_xposed_framework/website/)
+          * [安卓逆向调试：XPosed框架](https://book.crifan.org/books/android_re_xposed_framework/website/)
   * 通用
     * 编程语言
       * C
