@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v4.0.1",
-  "lastUpdate": "20230914",
+  "latestVersion": "v4.0.2",
+  "lastUpdate": "20241007",
   "gitRepoName": "android_app_security_crack",
   "bookName": "安卓应用的安全和破解",
   "bookDescription": "总结安卓应用的正向安装和逆向破解；先是安卓正向和逆向的概述；然后是安卓背景知识介绍，包括安卓基本框架、apk编译打包流程、以及相关知识，包括apk文件、dex文件、安卓虚拟机的Dalvik和ART，以及Smali。接着介绍安装正向的加固手段发展历史，包括VMP；以及防静态分析，包括加壳加固，为何要加壳，以及常见的加固服务提供商，和代码混淆的ProGuard和Obfuscator-LLVM，以及防动态调试。然后是安卓逆向破解，以及系列子教程。"
